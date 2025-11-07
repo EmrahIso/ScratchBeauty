@@ -104,6 +104,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html suppressHydrationWarning data-scroll-behavior='smooth' lang='bs-BA'>
       <head>
         <link rel='icon' href='/favicon.ico?v=2' />
+        <meta name='color-scheme' content='light' />
       </head>
       <body
         suppressHydrationWarning
