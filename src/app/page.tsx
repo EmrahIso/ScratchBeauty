@@ -128,7 +128,7 @@ export default function Home() {
           <div className='grid sm:grid-cols-2  grid-cols-1 mt-30'>
             <div className='py-10 border-b sm:col-span-2 sm:border-b sm:pb-12 flex items-center justify-center'>
               <Image
-                src='/EIT Food + EU Logo RGB Portrait.png'
+                src='/eit.png'
                 alt='EIT Food + EU Logo'
                 width='400'
                 height='200'
