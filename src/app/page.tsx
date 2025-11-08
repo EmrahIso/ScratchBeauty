@@ -53,7 +53,10 @@ export default function Home() {
     {
       title: 'Projekat?',
       content: (
-        <div className='font-ubuntu md:mt-40 mt-10'>
+        <div
+          className='font-ubuntu md:mt-40 mt-10 scroll-offset'
+          id='O-projektu'
+        >
           <div>
             <div>
               <h2 className='sm:text-3xl  text-2xl text-center font-semibold mb-3 bg-gradient-to-r from-foreground via-foreground/80 to-foreground bg-clip-text text-transparent'>

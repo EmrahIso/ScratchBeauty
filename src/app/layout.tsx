@@ -103,8 +103,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html suppressHydrationWarning data-scroll-behavior='smooth' lang='bs-BA'>
       <head>
-        <link rel='icon' href='/favicon.ico?v=2' />
+        <link rel='icon' href='/favicon.ico' sizes='any' />
         <meta name='color-scheme' content='light' />
+        <meta
+          name='google-site-verification'
+          content='NBzQlBpsVGyjA2qko5QcZLraJCDch1w7QfwDkO60tjU'
+        />
       </head>
       <body
         suppressHydrationWarning

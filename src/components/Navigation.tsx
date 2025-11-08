@@ -50,7 +50,16 @@ const DesktopNavigation = ({ pathname }: { pathname: string | null }) => {
           key={navLink.name}
           className='font-ubuntu text-lg text-(--color-brown)'
         >
-          <Link href={navLink.href}>{navLink.name.toLowerCase()}</Link>
+          <Link
+            href={navLink.href}
+            onClick={() => {
+              setTimeout(() => {
+                window.scrollTo(0, 0);
+              }, 0);
+            }}
+          >
+            {navLink.name.toLowerCase()}
+          </Link>
         </li>
       ))}
     </ul>
@@ -72,7 +81,6 @@ const MobileNavigation = ({ pathname }: { pathname: string | null }) => {
 
   const toggleNavigation = (): void => {
     setIsNavigationOpen((prevState: boolean) => !prevState);
-    window.scrollTo(0, 0);
   };
 
   return (
@@ -104,6 +112,9 @@ const MobileNavigation = ({ pathname }: { pathname: string | null }) => {
                     href={navLink.href}
                     onClick={() => {
                       setIsNavigationOpen(false);
+                      setTimeout(() => {
+                        window.scrollTo(0, 0);
+                      }, 0);
                     }}
                   >
                     {navLink.name.toLowerCase()}

@@ -3,12 +3,11 @@
 
 html {
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
-@custom-variant dark (&:where(.dark, .dark *));
-
 :root {
+  color-scheme: light;
+
   --bg-main-light: #fdfdfd;
   --bg-main-dark: #111;
 
@@ -149,6 +148,10 @@ html {
   body {
     @apply bg-background text-foreground;
   }
+  html,
+  body {
+    scroll-behavior: smooth !important;
+  }
 }
 
 .animated-link:link::after {
@@ -174,6 +177,10 @@ html {
 
 .custom-box-shadow-1:hover {
   box-shadow: 0 2.5px 2.5px 1.5px rgba(10, 10, 10, 0.05);
+}
+
+.scroll-offset {
+  scroll-margin-top: 200px;
 }
 
 @keyframes fadeIn {

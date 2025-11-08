@@ -41,12 +41,6 @@ function Footerdemo() {
                 O timu
               </Link>
               <Link
-                href='/catalog'
-                className='block transition-colors hover:text-primary'
-              >
-                Katalog
-              </Link>
-              <Link
                 href='/blog'
                 className='block transition-colors hover:text-primary'
               >
