@@ -28,7 +28,7 @@ const CookieBanner = () => {
   if (!visible) return null;
 
   return (
-    <div className='fixed bottom-4 left-4 right-4 bg-neutral-50 dark:bg-neutral-900 border-1 border-neutral-200 dark:border-neutral-700 text-neutral-700 dark:text-neutral-300 rounded-sm p-4 flex flex-col md:flex-row justify-between items-center gap-4 shadow-lg z-50 opacity-0 animate-[cookiesIn_0.6s_ease-out_forwards_0.175s]'>
+    <div className='fixed bottom-4 left-4 right-4 bg-neutral-50 dark:bg-neutral-900 border-1 border-neutral-200 dark:border-neutral-700 text-neutral-700 dark:text-neutral-300 rounded-sm p-4 flex flex-col md:flex-row justify-between items-center gap-4 shadow-lg z-[999] opacity-0 animate-[cookiesIn_0.6s_ease-out_forwards_0.175s]'>
       <p className='text-sm text-center md:text-left'>
         Ova web stranica koristi kolačiće za prikupljanje analitičkih podataka i
         poboljšanje iskustvo korisnika. Da li prihvatate upotrebu analitičkih
