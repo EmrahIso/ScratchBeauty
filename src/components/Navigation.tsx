@@ -101,7 +101,7 @@ const MobileNavigation = ({ pathname }: { pathname: string | null }) => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.4, ease: 'easeOut' }}
-              className='flex justify-center items-center flex-col gap-6 fixed top-0 left-0 h-screen w-screen z-10 bg-white dark:bg-neutral-900 tracking-wide font-medium'
+              className='flex justify-center items-center flex-col gap-6 fixed top-0 left-0 h-screen w-screen z-10 bg-white tracking-wide font-medium'
             >
               {navLinks.map((navLink: NavLink) => (
                 <li

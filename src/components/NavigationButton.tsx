@@ -25,7 +25,7 @@ const NavigationButton = ({
       }
       className={
         (isNavigationOpen ? 'relative z-20 ' : '') +
-        'text-neutral-900 dark:text-neutral-100 cursor-pointer p-2 rounded-2xl'
+        'text-neutral-900 cursor-pointer p-2 rounded-2xl'
       }
       onClick={toggleNavigation}
     >
