@@ -105,6 +105,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <head>
         <link rel='icon' href='/favicon.ico' sizes='any' />
         <meta name='color-scheme' content='light' />
+        <meta name='supported-color-schemes' content='light' />
         <meta
           name='google-site-verification'
           content='NBzQlBpsVGyjA2qko5QcZLraJCDch1w7QfwDkO60tjU'
@@ -112,7 +113,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       </head>
       <body
         suppressHydrationWarning
-        className={`${displayFont.variable} ${slabFont.variable} ${ubuntuFont.variable}`}
+        className={`${displayFont.variable} ${slabFont.variable} ${ubuntuFont.variable} bg-white`}
       >
         <PreHeader />
         <Header />

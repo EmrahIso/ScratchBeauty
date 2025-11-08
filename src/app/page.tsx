@@ -310,7 +310,7 @@ export default function Home() {
   ];
 
   return (
-    <main>
+    <main className='bg-white'>
       <div className='mt-4 font-ubuntu'>
         <h1 className='pointer-events-none opacity-0 h-0'>Scratch Beauty</h1>
         <ShuffleHero />

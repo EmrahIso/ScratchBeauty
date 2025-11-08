@@ -6,8 +6,6 @@ html {
 }
 
 :root {
-  color-scheme: light;
-
   --bg-main-light: #fdfdfd;
   --bg-main-dark: #111;
 
