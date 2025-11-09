@@ -90,8 +90,6 @@ export const metadata: Metadata = {
   },
   other: {
     'apple-mobile-web-app-title': 'Scratch Beauty',
-    'google-site-verification':
-      'google-site-verification=NBzQlBpsVGyjA2qko5QcZLraJCDch1w7QfwDkO60tjU',
   },
 };
 
@@ -106,10 +104,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <link rel='icon' href='/favicon.ico' sizes='any' />
         <meta name='color-scheme' content='light' />
         <meta name='supported-color-schemes' content='light' />
-        <meta
-          name='google-site-verification'
-          content='NBzQlBpsVGyjA2qko5QcZLraJCDch1w7QfwDkO60tjU'
-        />
       </head>
       <body
         suppressHydrationWarning
